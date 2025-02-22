@@ -47,3 +47,29 @@ print("*****************************************************&^&^(&)")
 for sublistindex in range (len(nested_list)):
     for index in range (len(nested_list[sublistindex])):
         print(nested_list[sublistindex][index])
+
+#code to find the item in a list 
+print(len(nested_list))
+
+
+# write a code to join 2 lists
+l1=[12,3,34,3,5,23,13,3]
+l2=[123,34,23,32,3,23,4,2,34,3]
+l3=l1+l2
+print(l3)
+l3.sort()
+print(l3)
+#3d dimensial
+d3list=[[[1,2,3,4,5],[6,7,8,9],[10,11,12,13]]],[[[14,15,16,17,18,19],[20,21,22],[23,24,25]]],[[[26,27,28,29,30],[31,32,33,34],[35,36,37]]]
+d4list=[[[100,23,42,32],[1,2,3,4],[1,2,3,4,5]]],[[[1,2,3,4,5,6],[1,2,3,4,5],[1,2,3,4]]],[[[1,2,3,4,5,6],[1,2,3,4,5],[1,2,3,4,5]]]
+d6list=d3list+d4list
+print(d6list)
+print(d3list[1] [0] [0] [1])
+print(d3list[1] [0] [2] [2])
+print(d3list[2] [0] [0])
+
+
+animals=["lion","tiger","zebra","girrafe","penguin","cat"]
+#write a code to create a list which contains all the item which contain the letter e 
+newlist=[ x for x in animals if "e" in x]
+print(newlist)
